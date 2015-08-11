@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		5C6A8E511B795022001152F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6A8E501B795022001152F2 /* AppDelegate.swift */; };
-		5C6A8E531B795022001152F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6A8E521B795022001152F2 /* ViewController.swift */; };
+		5C6A8E531B795022001152F2 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6A8E521B795022001152F2 /* PlayViewController.swift */; };
 		5C6A8E561B795022001152F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C6A8E541B795022001152F2 /* Main.storyboard */; };
 		5C6A8E581B795022001152F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C6A8E571B795022001152F2 /* Images.xcassets */; };
 		5C6A8E5B1B795022001152F2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C6A8E591B795022001152F2 /* LaunchScreen.xib */; };
 		5C6A8E671B795022001152F2 /* RockPaperScissorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6A8E661B795022001152F2 /* RockPaperScissorsTests.swift */; };
+		5C6A8E731B7953DB001152F2 /* RPCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6A8E721B7953DB001152F2 /* RPCViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		5C6A8E4B1B795022001152F2 /* RockPaperScissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C6A8E4F1B795022001152F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C6A8E501B795022001152F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5C6A8E521B795022001152F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C6A8E521B795022001152F2 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
 		5C6A8E551B795022001152F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C6A8E571B795022001152F2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5C6A8E5A1B795022001152F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5C6A8E601B795022001152F2 /* RockPaperScissorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperScissorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C6A8E651B795022001152F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C6A8E661B795022001152F2 /* RockPaperScissorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsTests.swift; sourceTree = "<group>"; };
+		5C6A8E721B7953DB001152F2 /* RPCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				5C6A8E501B795022001152F2 /* AppDelegate.swift */,
-				5C6A8E521B795022001152F2 /* ViewController.swift */,
+				5C6A8E521B795022001152F2 /* PlayViewController.swift */,
+				5C6A8E721B7953DB001152F2 /* RPCViewController.swift */,
 				5C6A8E541B795022001152F2 /* Main.storyboard */,
 				5C6A8E571B795022001152F2 /* Images.xcassets */,
 				5C6A8E591B795022001152F2 /* LaunchScreen.xib */,
@@ -212,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C6A8E531B795022001152F2 /* ViewController.swift in Sources */,
+				5C6A8E531B795022001152F2 /* PlayViewController.swift in Sources */,
 				5C6A8E511B795022001152F2 /* AppDelegate.swift in Sources */,
+				5C6A8E731B7953DB001152F2 /* RPCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
